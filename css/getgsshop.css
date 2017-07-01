@@ -1,0 +1,78 @@
+.content {
+  background-color: #8c8c8c;
+}
+.content .top {
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 0.04rem;
+  font-size: 0.28rem;
+  justify-content: center;
+  align-items: center;
+  display: -webkit-flex;
+}
+.content .top > div {
+  box-sizing: border-box;
+  padding: 0.14rem 0.2rem;
+  width: 30%;
+}
+.content .top img {
+  width: 10%;
+}
+.content .top .shopHidden {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0.56rem;
+  line-height: 0.6rem;
+  display: none;
+}
+.content .top .shopHidden li {
+  border-bottom: 1px solid #dddddd;
+  background-color: #fff;
+  padding: 0 0.2rem;
+}
+.content .top .areaHidden {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0.56rem;
+  line-height: 0.6rem;
+  display: none;
+}
+.content .top .areaHidden li {
+  border-bottom: 1px solid #dddddd;
+  background-color: #fff;
+  padding: 0 0.2rem;
+}
+.content .want li {
+  background-color: #fff;
+  width: 50%;
+  height: 5.8rem;
+  box-sizing: border-box;
+  border: 0.15rem solid #F1F1F1;
+}
+.content .want li img {
+  width: 100%;
+  height: 3.8rem;
+}
+.content .want li p {
+  color: #000;
+  line-height: 0.35rem;
+  color: #000000;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+  line-height: 0.5rem;
+  box-sizing: border-box;
+  padding: 0 0.16rem;
+}
+.content .want li span {
+  color: #F8601D;
+  font-size: 0.4rem;
+  padding: 0 0.16rem;
+}
+.content .want li:nth-of-type(2n) {
+  border-left: none;
+}

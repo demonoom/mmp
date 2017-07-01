@@ -1,0 +1,98 @@
+.layout {
+   /*导航栏*/
+   .nav {
+     background-color: #fff;
+     margin-top: 0.06rem;
+     ul {
+       padding: 0.4rem 0.3rem 0.2rem;
+       li {
+         width: 25%;
+         float: left;
+         text-align: center;
+         margin-bottom: 0.25rem;
+         a {
+           display: inline-block;
+           width: 100%;
+           height: 100%;
+         }
+         img {
+           width: 0.85rem;
+         }
+         p {
+           font-size: 0.18rem;
+           font-family: '微软雅黑';
+         }
+       }
+       li:nth-last-child(-n+4) {
+         display: none;
+       }
+     }
+   }
+   /*商品*/
+   .product {
+     width: 100%;
+     .productop {
+       box-sizing: border-box;
+       padding: 0 0.18rem;
+       width: 100%;
+       height: 0.6rem;
+       background-color: #FF841D;
+       margin-top: 0.06rem;
+       color: #ffffff;
+       font-size: 0.3rem;
+       font-family: '微软雅黑';
+       line-height: 0.6rem;
+       span {
+         border: 1px solid #ffffff;
+         width: 0.3rem;
+         height: 0.3rem;
+         border-radius: 50%;
+         margin-top: 0.14rem;
+         text-align: center;
+         line-height: 0.3rem;
+         font-family: simsun;
+       }
+     }
+     ul {
+       li {
+         margin-bottom: 1px;
+         background-color: #fff;
+         overflow: hidden;
+         img {
+           width: 30%;
+           float: left;
+         }
+         >div {
+           box-sizing: border-box;
+           padding: 0.25rem;
+           width: 70%;
+           background-color: #fff;
+           div:nth-of-type(1) {
+             font-size: 0.28rem;
+             span:nth-of-type(2) {
+               color: #FF841D;
+             }
+           }
+           div:nth-of-type(2) {
+             //padding: 0.23rem 0;
+             margin-top: 0.3rem;
+             font-size: 0.24rem;
+             color: #cccccc;
+           }
+         }
+       }
+     }
+     .productMore {
+       margin-top: 0.08rem;
+       text-align: center;
+       border: 0.01rem solid rgba(42, 171, 146, 0.62);
+       background-color: #FAFAFA;
+       border-radius: 0.1rem;
+       box-sizing: border-box;
+       padding: 0.07rem 0;
+       a {
+         font-size: 0.26rem;
+       }
+     }
+   }
+ }

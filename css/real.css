@@ -1,0 +1,25 @@
+.bigUL {
+  background-color: #fff;
+  padding: 0.2rem;
+  padding-top: 0.4rem;
+}
+.bigUL > li {
+  position: relative;
+  border: 0.01rem solid #cccccc;
+  background-color: #F1F1F1;
+  margin-bottom: 0.4rem;
+  box-sizing: border-box;
+  padding: 0.16rem;
+}
+.bigUL > li > div {
+  color: #A9A8A7;
+}
+.bigUL > li p {
+  color: #000;
+}
+.bigUL > li b {
+  position: absolute;
+  top: -0.4rem;
+  color: #F1F1F1;
+  font-size: 0.8rem;
+}

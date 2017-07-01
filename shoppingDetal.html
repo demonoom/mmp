@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/shoppingDetal.css"/>
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/shoppingDetal.js"></script>
+    <script src="js/rem.js"></script>
+    <script src="js/template.js"></script>
+    <script type="text/html" id="noom">
+        {{each result as value}}
+            <p>{{value.productName}}</p>
+            {{#value.productImg}}
+            <img class="jiade" src="images/jiade.png" alt=""/>
+            {{#value.bjShop}}
+        {{/each}}
+    </script>
+    <script type="text/html" id="nooom">
+        {{each result as value}}
+        <li>
+            <div>
+                <span>{{value.comName}}</span>
+                <span class="f_right">{{value.comTime}}</span>
+            </div>
+            <p style="text-align: right">{{value.comFrom}}</p>
+            <div>{{value.comContent}}</div>
+        </li>
+        {{/each}}
+    </script>
+    <title></title>
+</head>
+<body>
+<div class="layout">
+    <div class="banner" id="top">
+        <img src="images/header_logo.png" alt="" class="f_left"/>
+        <img src="images/header_app.png" alt="" class="f_right"/>
+    </div>
+    <div class="search">
+        <form action="" class="mmb_search">
+            <input type="text" placeholder="请输入你想比价的商品" id="text" class="f_left"/>
+            <input type="button" value="搜索" id="btn" class="f_right"/>
+        </form>
+    </div>
+    <div class="content">
+        <div><a href="index.html">首页</a> > <a href=""></a> > <a href="#"></a>
+            <button class="f_right">筛选</button>
+        </div>
+        <div class="hexin">
+            <p class="warning">*实际价格以各网站列出的实际售价为准，我们提供的价格可能有数小时至数日的延迟。</p>
+        </div>
+        <div class="comment">
+            网友评价
+        </div>
+        <ul class="comments"></ul>
+    </div>
+    <div class="footer">
+        <div style="background-color: #F1F1F1;color: black;text-align: center;border-radius: 0.3rem;font-family: '微软雅黑';font-size: 0.26rem;">
+            查看更多评论
+        </div>
+        <div style="padding-top: 0">
+            <span>登陆</span><span>注册</span><span><b></b><a href="#top" style="color: black">返回顶部</a></span>
+        </div>
+        <div>
+            <span><a href="#" class="appDownload">手机APP下载</a>&nbsp;&nbsp;<a href="index.html" class="mmbPhone">慢慢买手机版</a>--掌上比价平台</span><br/>
+            <span>m.manmanbuy.com</span>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+

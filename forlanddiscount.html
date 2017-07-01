@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/forlanddiscount.css"/>
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/forlanddiscount.js"></script>
+    <script src="js/rem.js"></script>
+    <script src="js/template.js"></script>
+    <script type="text/html" id="noom">
+        {{each result as value}}
+            <h2>{{value.productName}}</h2>
+            <span style="color: #FF841D;">{{value.productPrice}}</span>
+            <div>
+                <span>{{value.productFrom}}</span>
+                <span>{{value.productTime}}</span>
+                <span>{{value.productTips}}</span>
+            </div>
+            <div class="clearfix">
+                <p>{{value.productInfo}}</p>
+                {{#value.productImgSm}}
+            </div>
+            <span>{{value.productInfo1}}</span>
+            {{#value.productImg}}
+            {{#value.productCity}}
+            <div class="goBuy">前往购买</div>
+            <img src="images/weixin.png" alt="" style="width: 100%;"/>
+            {{#value.productComment}}
+        {{/each}}
+    </script>
+    <title></title>
+</head>
+<body>
+<div class="layout">
+    <div class="banner" id="top" style="text-align: center;font-size: 0.28rem; color: #ffffff;line-height: 0.5rem;">
+        国内折扣
+        <b style="font-family: simsun;height: 100%;font-size: 0.4rem;" class="f_left"><a href="landdiscount.html" style="color: #ffffff">  <  </a></b>
+        <img src="images/header_app.png" alt="" class="f_right" style="width: 8%;"/>
+    </div>
+    <div class="content" style="background-color: #fff;">
+
+    </div>
+    <div class="footer">
+        <div style="background-color: #fff;display: none">
+            品牌排行
+            <span class="f_right"> > </span>
+        </div>
+        <div style="padding-top: 0">
+            <span>登陆</span><span>注册</span><span><b></b><a href="#top" style="color: black">返回顶部</a></span>
+        </div>
+        <div>
+            <span><a href="#" class="appDownload">手机APP下载</a>&nbsp;&nbsp;<a href="index.html" class="mmbPhone">慢慢买手机版</a>--掌上比价平台</span><br/>
+            <span>m.manmanbuy.com</span>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+

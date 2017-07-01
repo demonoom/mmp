@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/getgsshop.css"/>
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/getgsshop.js"></script>
+    <script src="js/rem.js"></script>
+    <script src="js/template.js"></script>
+    <script type="text/html" id="noom">
+        {{each result as value}}
+            <li class="f_left">
+                <img src="{{value.productImg}}" alt=""/>
+                <p>{{value.productName}}</p>
+                <span>{{value.productPrice}}</span>
+            </li>
+        {{/each}}
+    </script>
+    <title></title>
+</head>
+<body>
+<div class="layout">
+    <div class="banner" id="top" style="text-align: center;font-size: 0.28rem; color: #ffffff;line-height: 0.5rem;">
+        凑单品
+        <b style="font-family: simsun;height: 100%;font-size: 0.4rem;" class="f_left"><a href="index.html" style="color: #ffffff">  <  </a></b>
+        <img src="images/header_app.png" alt="" class="f_right" style="width: 8%;"/>
+    </div>
+    <div class="content">
+        <div class="top clearfix">
+            <div class="shop f_left"><b style="font-weight: normal;">京东</b><span style="display: inline-block">▲</span></div>
+            <ul class="shopHidden"></ul>
+            <div class="area f_left"><b style="font-weight: normal;">华北</b><span style="display: inline-block">▲</span></div>
+            <ul class="areaHidden"></ul>
+            <div class="price f_left">全部价格▲</div>
+            <img src="images/626.png" alt="" class="f_right"/>
+        </div>
+        <ul class="want clearfix"></ul>
+    </div>
+</div>
+</body>
+</html>
+
+

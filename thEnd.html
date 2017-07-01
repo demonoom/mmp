@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/thEnd.css"/>
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/thEnd.js"></script>
+    <script src="js/rem.js"></script>
+    <script src="js/template.js"></script>
+    <script type="text/html" id="noom">
+        {{each result as value}}
+            <a href="realthEnd.html?productid={{value.productId}}">
+                <li class="clearfix">
+                    {{#value.productImg}}
+                    <div class="f_right">
+                        <p>{{value.productName}}</p>
+                        <p>{{value.productPrice}}</p>
+                        <span>{{value.productQuote}}</span>
+                        <span>{{value.productCom}}</span>
+                    </div>
+                </li>
+            </a>
+        {{/each}}
+    </script>
+    <title></title>
+</head>
+<body>
+<div class="layout">
+    <div class="banner" id="top">
+        <img src="images/header_logo.png" alt="" class="f_left"/>
+        <img src="images/header_app.png" alt="" class="f_right"/>
+    </div>
+    <div class="search">
+        <form action="" class="mmb_search">
+            <input type="text" placeholder="请输入你想比价的商品" id="text" class="f_left"/>
+            <input type="button" value="搜索" id="btn" class="f_right"/>
+        </form>
+    </div>
+    <div class="content" style="overflow: hidden">
+        <div style="padding: 0.12rem 0.1rem;margin-bottom: 0.1rem;"><a href="index.html">首页</a> > <a href="brand.html">品牌大全</a> > <a href="#"></a>
+            <button class="f_right">筛选</button>
+        </div>
+        <div class="six">666</div>
+        <ul class="bigUL clearfix"></ul>
+    </div>
+    <div class="footer">
+        <div style="background-color: #fff;display: none">
+            品牌排行
+            <span class="f_right"> > </span>
+        </div>
+        <div style="padding-top: 0">
+            <span>登陆</span><span>注册</span><span><b></b><a href="#top" style="color: black">返回顶部</a></span>
+        </div>
+        <div>
+            <span><a href="#" class="appDownload">手机APP下载</a>&nbsp;&nbsp;<a href="index.html" class="mmbPhone">慢慢买手机版</a>--掌上比价平台</span><br/>
+            <span>m.manmanbuy.com</span>
+        </div>
+    </div>
+</div>
+</body>
+</html>

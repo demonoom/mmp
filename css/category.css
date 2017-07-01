@@ -1,0 +1,28 @@
+.ul > li {
+  box-sizing: border-box;
+  padding: 0.2rem 0.2rem;
+  font-size: 0.29rem;
+  font-weight: bold;
+  border-bottom: 0.01rem solid #3ae2c7;
+}
+.ul > li span {
+  transform: rotate(90deg);
+  font-family: simsun;
+  font-weight: normal;
+  color: #f745dc;
+}
+.sul {
+  display: none;
+  background-color: #fff;
+}
+.sul li {
+  text-align: center;
+  border-right: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  padding: 0.14rem 0;
+  width: 33.3%;
+}
+.sul li a {
+  font-weight: normal;
+  font-size: 0.27rem;
+}

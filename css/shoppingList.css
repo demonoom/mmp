@@ -1,0 +1,53 @@
+.content > div {
+  padding: 0.12rem 0.1rem;
+}
+.content > div a {
+  font-size: 0.24rem;
+  color: #000;
+}
+.content > div button {
+  font-size: 0.24rem;
+  color: #000;
+  font-family: '΢���ź�';
+  border-radius: 0.08rem;
+  padding: 0.04rem 0.12rem;
+}
+.content .bigUL li {
+  overflow: hidden;
+  background-color: #fff;
+  margin-bottom: 0.05rem;
+  padding: 0.18rem;
+  font-size: 0.24rem;
+}
+.content .bigUL li img {
+  width: 30%;
+}
+.content .bigUL li > div {
+  width: 68%;
+}
+.content .bigUL li > div p:nth-of-type(2) {
+  color: #FF841D;
+  padding: 0.2rem 0;
+}
+.content .bigUL li > div span {
+  color: #BBB8BE;
+  font-size: 0.2rem;
+}
+.content .choose {
+  padding: 0.14rem 0.28rem;
+  background-color: #fff;
+  position: relative;
+}
+.content .choose buntton {
+  padding: 0.07rem 0.12rem;
+}
+.content .choose button:nth-of-type(2) {
+  float: right;
+}
+.content .choose select {
+  padding: 0.14rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

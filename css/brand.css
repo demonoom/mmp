@@ -1,0 +1,32 @@
+.content .bigUL {
+  background-color: #fff;
+  overflow: hidden;
+}
+.content .bigUL li {
+  position: relative;
+  padding: 0.12rem 0.14rem;
+  border-bottom: 0.01rem solid #D3D3D3;
+  background-color: #F1F1F1;
+}
+.content .bigUL li a {
+  font-size: 0.3rem;
+  font-weight: 900;
+  color: #000;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.content .bigUL li span {
+  position: absolute;
+  top: 50%;
+  right: 0.4rem;
+  transform: rotate(90deg) translateX(-60%);
+}
+.content .bigUL .yi {
+  color: #9B6733;
+  font-size: 0.3rem;
+  border: 0.01rem solid #D3D3D3;
+  margin: 0.1rem 0;
+  border-left: 0;
+  border-right: 0;
+}

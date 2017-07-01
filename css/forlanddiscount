@@ -1,0 +1,118 @@
+.content {
+  color: #5A5A5A;
+  text-align: left;
+  overflow: hidden;
+  padding: 0 0.2rem;
+  div:nth-of-type(1) {
+    font-size: 0.26rem;
+    color: #cccccc;
+  }
+  div:nth-of-type(2) {
+    margin-top: 0.2rem;
+    p {
+      width: 70%;
+      float: left;
+      font-size: 0.3rem;
+    }
+    >img {
+      float: right;
+      width: 30%;
+    }
+  }
+  .goBuy {
+    text-align: center;
+    background-color: #FF841D;
+    color: #ffffff;
+    border-radius: 0.1rem;
+    margin: 0.3rem 0;
+    line-height: 0.6rem;
+    font-size: 0.26rem;
+  }
+  >span {
+    font-size: 0.3rem;
+  }
+  #disstorck {
+    box-sizing: border-box;
+    margin-top: 0.3rem;
+    padding: 0 0.5rem;
+    li {
+      font-size: 0.26rem;
+      line-height: 0.5rem;
+      text-align: center;
+      border-bottom: 1px dashed #FF841D;
+      strong {
+        color: #FF841D;
+        margin-left: 0.8rem;
+      }
+    }
+  }
+  >img  {
+    margin: 0.2rem auto 0;
+    width: 100%;
+  }
+  .tit {
+    font-size: 0.3rem;
+    color: #000;
+  }
+  .reply {
+    .form {
+      textarea {
+        width: 100%;
+        border: 1px solid #A9A9A9;
+        outline: #dddddd thin solid;
+      }
+      .ctrl {
+        margin-top: -0.1rem;
+        width: 100%;
+        overflow: hidden;
+        background-color: #FBFBFB;
+        input {
+          float: right;
+          background-color: #FF841D;
+          font-size: 0.3rem;
+          font-family: 'Î¢ÈíÑÅºÚ';
+          color: #ffffff;
+          line-height: 0.5rem;
+          padding: 0.1rem 0.3rem;
+        }
+      }
+    }
+  }
+  .list {
+    .ui-border-b {
+      padding: 0.3rem 0;
+      .userimg {
+        float: left;
+        width: 15%;
+        img {
+          width: 100%;
+          border-radius: 50%;
+        }
+      }
+      .con {
+        margin: 0;
+        box-sizing: border-box;
+        padding: 0 0.2rem;
+        float: left;
+        width: 85%;
+        .name {
+          width: 100%;
+          .username {
+            float: left;
+            color: #9972f7;
+          }
+          .time {
+            float: right;
+            padding: 0;
+            margin: 0;
+          }
+        }
+        .content {
+          font-size: 0.26rem;
+          padding: 0;
+          padding-bottom: 0.5rem;
+        }
+      }
+    }
+  }
+}

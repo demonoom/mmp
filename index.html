@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/mmb.css"/>
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/rem.js"></script>
+    <script src="js/template.js"></script>
+    <script type="text/html" id="model">
+        {{each result as value}}
+        <a href="forSave.html?productid={{value.productId}}">
+            <li>
+                {{#value.productImgSm}}
+                <div class="f_right">
+                    <div>
+                        <span>{{value.productName}}</span>
+                        <span>{{value.productPinkage}}</span>
+                    </div>
+                    <div class="clearfix">
+                        <p class="f_left">{{value.productFrom}}|{{value.productTime}}</p>
+                        <p class="f_right">{{value.productComCount}}</p>
+                    </div>
+                </div>
+            </li>
+        </a>
+        {{/each}}
+    </script>
+    <script src="js/mmb.js"></script>
+    <title></title>
+</head>
+<body>
+<div class="layout">
+    <div class="banner" id="top">
+        <img src="images/header_logo.png" alt="" class="f_left"/>
+        <img src="images/header_app.png" alt="" class="f_right"/>
+    </div>
+    <div class="search">
+        <form action="" class="mmb_search">
+            <input type="text" placeholder="请输入你想比价的商品" id="text" class="f_left"/>
+            <input type="button" value="搜索" id="btn" class="f_right"/>
+        </form>
+    </div>
+    <div class="nav">
+        <ul class="clearfix">
+            <li>
+                <a href="category.html">
+                    <!--<img src="images/haitao.png" alt=""/>-->
+                    <p></p>
+                </a>
+            </li>
+            <li>
+                <a href="save.html">
+                    <!--<img src="images/haitao.png" alt=""/>-->
+                    <p></p>
+                </a>
+            </li>
+            <li>
+                <a href="landdiscount.html">
+                    <!--<img src="images/haitao.png" alt=""/>-->
+                    <p></p>
+                </a>
+            </li>
+            <li>
+                <a href="cabbage.html">
+                    <!--<img src="images/haitao.png" alt=""/>-->
+                    <p></p>
+                </a>
+            </li>
+            <li>
+                <a href="save.html">
+                    <!--<img src="images/haitao.png" alt=""/>-->
+                    <p></p>
+                </a>
+            </li>
+            <li>
+                <a href="getcoupon.html">
+                    <!--<img src="images/haitao.png" alt=""/>-->
+                    <p></p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <!--<img src="images/haitao.png" alt=""/>-->
+                    <p></p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <!--<img src="images/haitao.png" alt=""/>-->
+                    <p></p>
+                </a>
+            </li>
+            <li>
+                <a href="getgsshop.html">
+                    <!--<img src="images/haitao.png" alt=""/>-->
+                    <p></p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <!--<img src="images/haitao.png" alt=""/>-->
+                    <p></p>
+                </a>
+            </li>
+            <li>
+                <a href="shopnav.html">
+                    <!--<img src="images/haitao.png" alt=""/>-->
+                    <p></p>
+                </a>
+            </li>
+            <li>
+                <a href="brand.html">
+                    <!--<img src="images/haitao.png" alt=""/>-->
+                    <p></p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="product clearfix">
+        <div class="productop">
+            超值折扣推荐
+            <span class="f_right"> > </span>
+        </div>
+        <ul id="productbox" class="clearfix"></ul>
+        <div class="productMore">
+            <a href="save.html"> 更多优惠信息>> </a>
+        </div>
+    </div>
+    <div class="footer">
+        <div>
+            品牌排行
+            <span class="f_right"> > </span>
+        </div>
+        <div>
+            <span>登陆</span><span>注册</span><span><b></b><a href="#top" style="color: black">返回顶部</a></span>
+        </div>
+        <div>
+            <span><a href="#" class="appDownload">手机APP下载</a>&nbsp;&nbsp;<a href="index.html" class="mmbPhone">慢慢买手机版</a>--掌上比价平台</span><br/>
+            <span>m.manmanbuy.com</span>
+        </div>
+    </div>
+</div>
+</body>
+</html>

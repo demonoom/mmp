@@ -1,0 +1,56 @@
+.content {
+  >div:nth-of-type(1) {
+    padding: 0.12rem 0.1rem;
+    a {
+      font-size: 0.24rem;
+      color: #000;
+    }
+    button {
+      font-size: 0.24rem;
+      color: #000;
+      font-family: '微软雅黑';
+      border-radius: 0.08rem;
+      padding: 0.04rem 0.12rem;
+    }
+  }
+  .hexin {
+    font-size: 0.28rem;
+    text-align: center;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding-top: 0.2rem;
+    P:nth-of-type(1) {
+      padding: 0 0.4rem;
+    }
+    .warning {
+      font-size: 0.2rem;
+      color: #A9A9A9;
+      line-height: 0.24rem;
+      text-align: left;
+      border-top: 0.008rem solid #cccccc;
+      padding: 0.1rem 0.1rem 0.2rem;
+    }
+  }
+  .comment {
+    text-align: center;
+    line-height: 0.5rem;
+    font-size: 0.26rem;
+  }
+  .comments {
+    background-color: #fff;
+    li {
+      color: #A9A9A9;
+      border-bottom: 0.008rem solid #cccccc;
+      box-sizing: border-box;
+      padding: 0.2rem;
+      line-height: 0.3rem;
+      >div:nth-of-type(2) {
+        color: #000;
+      }
+    }
+  }
+  .jiade {
+    width: 100%;
+    margin-top: 0.4rem;
+  }
+}
